@@ -1,0 +1,24 @@
+{
+    "name": "azonmedia/authorization",
+    "type": "library",
+    "description": "RBAC Authorization model",
+    "keywords": ["authorization","RBAC"],
+    "homepage": "https://github.com/AzonMedia/authorization",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Vesko Kenashkov",
+            "email": "kenashkov@azonmedia.com",
+            "homepage": "http://azonmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azonmedia\\Authorization\\": "src/"
+        }
+    }
+}
